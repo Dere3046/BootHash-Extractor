@@ -16,11 +16,6 @@
         android:label="Key Attestation Demo"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
         
-        <!-- 显式禁用 Android IDE 的日志发送服务 -->
-        <service
-            android:name="com.itsaky.androidide.logsender.LogSenderService"
-            android:enabled="false"
-            android:exported="false" />
         
         <activity
             android:name=".MainActivity"
